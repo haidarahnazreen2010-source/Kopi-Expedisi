@@ -1,8 +1,8 @@
 const products = [
-  { id: 1, name: "Kopi Susu Expedisi", price: 25000, img: "images/Kopsus.png" },
-  { id: 2, name: "Kopi Susu gula Aren", price: 22000, img: "images/Kopi susu gula aren.png" },
-  { id: 3, name: "Kopi Hitam", price: 28000, img: "images/Kopi Hitam.png" },
-  { id: 4, name: "Coklat", price: 32000, img: "images/Coklat.jpg" }
+  { id: 1, name: "Kopi Susu Expedisi", price: 25000, img: "Kopsus.png" },
+  { id: 2, name: "Kopi Susu gula Aren", price: 22000, img: "Kopi susu gula aren.png" },
+  { id: 3, name: "Kopi Hitam", price: 28000, img: "Kopi Hitam.png" },
+  { id: 4, name: "Coklat", price: 32000, img: "Coklat.jpg" }
 ];
 
 let cart = [];
@@ -99,3 +99,4 @@ function checkout() {
   document.getElementById("cart").classList.add("show");
 
 }
+
